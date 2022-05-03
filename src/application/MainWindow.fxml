@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="387.0" style="-fx-background-color: #79CDCD;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <Button fx:id="btPrincipiante" layoutX="119.0" layoutY="186.0" mnemonicParsing="false" onAction="#getPrincipiante" prefHeight="33.0" prefWidth="150.0" text="Principiante">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btIntermedio" layoutX="119.0" layoutY="233.0" mnemonicParsing="false" onAction="#getIntermedio" prefHeight="25.0" prefWidth="150.0" text="Intermedio">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btExperto" layoutX="119.0" layoutY="285.0" mnemonicParsing="false" onAction="#getExperto" prefHeight="33.0" prefWidth="150.0" text="Experto">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="73.0" layoutY="137.0" text="Elige el nvel que quieres jugar">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="106.0" fitWidth="101.0" layoutX="143.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imagen1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
